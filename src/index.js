@@ -11,6 +11,7 @@ app.use(cors());
 
 const router = new Router();
 
+const PORT = process.env.PORT || 4000;
 
 router.get("/sparql",async (ctx,next)=>{
   const data = await retrieveSparqlData();
@@ -21,7 +22,7 @@ router.get("/sparql",async (ctx,next)=>{
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(4000);
+app.listen(PORT);
 
 async function retrieveSparqlData() {
   const context = {
