@@ -1,5 +1,8 @@
 {
   "name": "SPARQL",
+  "engines": {
+    "node": "12.x"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
