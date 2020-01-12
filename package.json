@@ -1,0 +1,19 @@
+{
+  "name": "SPARQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "graphql-ld": "^1.0.1",
+    "graphql-ld-comunica": "^1.0.0",
+    "http-status": "^1.4.2",
+    "koa": "^2.11.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.4.0",
+    "sparqljson-to-tree": "^2.0.0"
+  }
+}
